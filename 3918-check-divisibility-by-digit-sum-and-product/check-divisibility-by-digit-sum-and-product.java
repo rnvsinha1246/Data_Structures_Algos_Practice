@@ -10,6 +10,7 @@ class Solution {
             temp = temp/10;
         }
         int s = digSum+digProd;
-        return n%s==0;
+        if(n%s==0) return true;
+        return false;
     }
 }
